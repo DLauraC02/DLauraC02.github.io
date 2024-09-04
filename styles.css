@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
+
+header {
+    background-color: black;
+    width: 100%;
+    height: auto;
+}
+
+html {
+    background-color: rgb(186, 143, 178);
+    width: 99.3%;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.gifContainer {
+    width: 100px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.gif img {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+.titulo h2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.enlaces {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.enlaces ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    list-style-type: none;
+    gap: 20px;
+    font-family: 'Handlee', sans-serif;
+    font-size: 17px;
+}
+
+a {
+    color: rgb(134, 191, 196);
+    text-decoration: none;
+}
+
+h1 {
+    font-family: 'Handlee', sans-serif;
+}
+
+h2 {
+    font-family: 'Handlee', sans-serif;
+}
+
+h5 {
+    font-family: 'Oxygen', sans-serif;
+    color: rgb(122, 4, 95);
+}
+
+h6 {
+    font-family: 'Oxygen', sans-serif;
+    color: rgb(122, 4, 95);
+
+}
+
+p {
+    font-family: 'Oxygen', sans-serif;
+    font-size: medium;
+    margin: 10px;
+    align-items: center;
+}
+
+img {
+    width: 200px;
+    height: auto;
+    margin-left: 15px;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 3px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: rgb(143, 108, 144);
+}
+
+.caja {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.contenedormusica {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: rgb(143, 108, 144);
+}
+
+.cajamusica {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    width: 460px; height: 250px;
+}
+
+.inframe {
+    width: 460px; height: 250px;
+}
+
+footer {
+    font-size: small;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: end;
+    margin: 10px;
+}
+
+
+@media (max-width: 767px) {
+    .html {
+        max-width: 99.2%;
+    }
+
+    .header h1 {
+        font-size: 13px;
+        margin: 3px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .gifContainer {
+        width: 95px;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .gif img {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        margin-right: 5px;
+    }
+
+    .titulo h2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-right: 5px;
+        font-size: 13px;
+    }
+
+    .enlaces {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: flex-start;
+        width: 92%;
+    }
+
+    .enlaces ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-start;
+        list-style-type: none;
+        gap: 1px;
+        font-family: 'Handlee', sans-serif;
+        font-size: 8px;
+    }
+
+    a {
+        color: rgb(134, 191, 196);
+        text-decoration: none;
+    }
+
+    h1 {
+        font-family: 'Handlee', sans-serif;
+    }
+
+    h2 {
+        font-family: 'Handlee', sans-serif;
+    }
+
+    h5 {
+        font-family: 'Oxygen', sans-serif;
+        color: rgb(122, 4, 95);
+        font-size: 12px;
+    }
+
+    h6 {
+        font-family: 'Oxygen', sans-serif;
+        color: rgb(122, 4, 95);
+        font-size: 12px;
+    }
+
+    p {
+        font-family: 'Oxygen', sans-serif;
+        font-size: 12px;
+        margin: 5px;
+        width: 95%;
+        align-items: center;
+    }
+
+    img {
+        width: 90px;
+        height: auto;
+        margin-left: 5px;
+    }
+
+    .body {
+        width: auto;
+    }
+
+    .info {
+        display: flex;
+        flex-direction: row;
+        width: 90%;
+        margin-top: 10px;
+        margin-bottom: 3px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .contenedor {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        background-color: rgb(143, 108, 144);
+    }
+
+    .caja {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        margin: 5px;
+    }
+
+    .footer {
+        font-size: smaller;
+        display: flex;
+        flex-direction: row;
+        width: 95%;
+        justify-content: center;
+        align-items: end;
+        margin-top: 20px;
+    }
+
+    .contenedormusica {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        background-color: rgb(143, 108, 144);
+    }
+    
+    .cajamusica {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 15px;
+        width: 360px; height: 150px;
+    }
+    
+
+}
